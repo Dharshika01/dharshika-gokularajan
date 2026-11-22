@@ -7,6 +7,12 @@ const fprojects = [
      image: "/Project/Airea_image.jpg",
      tags:["Flutter","Spring Boot", "PostgreSQL"],
      },
+     {id :2 ,
+     title :" Weather App",
+     description :"Creating Weather App using React framework",
+     image: "/Project/Weather-app.png",
+     tags:["React","CSS","OpenWeatherMap API"],
+     },
 ];
 
 
