@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dharshika-gokularajan.vercel.app/sitemap.xml
