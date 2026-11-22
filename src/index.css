@@ -97,6 +97,10 @@ body{
   font-feature-settings: "rlig" 1, "calt",1;
 }
 
+.projects-grid {
+    display: flex;
+    gap: 24px;
+}
 
 
 

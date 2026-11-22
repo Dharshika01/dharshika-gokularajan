@@ -10,7 +10,7 @@ const fprojects = [
      {id :2 ,
      title :" Weather App",
      description :"Creating Weather App using React framework",
-     image: "/Project/Weather-app.png",
+     image: "/Project/Weather_app.png",
      tags:["React","CSS","OpenWeatherMap API"],
      },
 ];
@@ -26,7 +26,7 @@ export const ProjectsSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
                 {fprojects.map((project,key) => (
                     <div key ={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
-                    <div className="h-48 overflow-hidden">
+                    <div className="h-48 overflow-hidden projects-grid">
                        <img src= {project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/> 
                      </div>
                      <div className ="p-6">
